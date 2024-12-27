@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+coverage/
+node_modules/
+.vscode/
+output
+dist
+.history/
+logs/
+package-lock.json
