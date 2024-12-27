@@ -38,28 +38,3 @@ const deletecolor = async (taskId) => {
      deletecolor
  }
  
-
-
-
-
-
-
-
-
-
-// const createcolor = async(color) =>
-// {
-//    try{
-
-//     const newcolor = await colors.findOrCreate({where:{color:color},defaults:{color:color}});
-//      return newcolor;
-//    } catch(error){
-//          console.log(error.message);
-//    }
-// }
-
-
-
-// module.exports ={
-//     createcolor,
-// }

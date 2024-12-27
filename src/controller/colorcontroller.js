@@ -44,18 +44,3 @@ module.exports = {
 
 
 
-
-// const addcolor = async(req,res) => {
-//     try{
-//         const color = req.body.color;
-//         const newcolor = await colorService.createcolor(color);
-//         res.status(201).json({newcolor});
-//     }catch(error){
-//       res.status(500).json({error:error.meassage});
-//     }
-// }
-
-
-// module.exports = {
-//     addcolor,
-// }

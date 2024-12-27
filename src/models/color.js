@@ -12,6 +12,7 @@ const ColorModel = (sequelize) => {
             },
             color: {
                 type: DataTypes.STRING,
+                unique:false,
                 allowNull: false,
             },
         },
