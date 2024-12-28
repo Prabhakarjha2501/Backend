@@ -17,7 +17,7 @@ const addcolors = async(req, res) => {
 
 const getAllcolors = async (req, res) => {
     try {
-        const { page = 1, limit = 10} = req.query; 
+        const { page = 1, limit = 4} = req.query; 
         const colors = await colorService.getAllcolor(page, limit);
         res.status(200).json(colors);
     } catch (error) {
