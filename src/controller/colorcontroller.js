@@ -1,7 +1,5 @@
 const colorService = require('../services/colorservice');
 
-
-
 const addcolors = async(req, res) => {
     try{
         const colorArray = req.body.color;

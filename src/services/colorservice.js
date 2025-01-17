@@ -2,8 +2,6 @@ const db  = require('../models/index.js');
 const colors = db.colorModel;
 
 
-
-
 const createcolors = async (colorArray) => {
     console.log(`colorArray: ${colorArray}------------------`);
     try {
